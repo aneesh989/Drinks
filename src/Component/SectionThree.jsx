@@ -31,7 +31,8 @@ function SectionThree() {
           scrollTrigger: {
               trigger: '.section2',
               start: '50% 50%',
-              end: '200% 100%',
+              end: '190% 100%',
+              // scroller:"body",
               scrub: 1,
               markers: true
           }
