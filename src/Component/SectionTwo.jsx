@@ -25,40 +25,17 @@ function SectionTwo() {
                   start: '50% 50%',
                   end: '200% 100%',
                   scrub: 1,
-                  // markers: true
               }
           });
           tl2.to('#strawberry', {
-              top: "210%",
-              left: "35%",
-              width: "30vw",
+              top: "220%",
+              left: "38%",
+              width: "23vw",
           }, 'time1')
               .to('#strawbunch2', {
                   top: "220%",
                   left: "40%",
                   width: "20vw",
-                  scale:1,
-              }, 'time1')
-              .from('.pineapplecut', {
-                  y: 500,
-                  x: -900,
-                  rotate: -90,
-              }, 'time1')
-              .from('#pineapple', {
-                  y: 300,
-                  x: -700,
-                  rotate: -90,
-                  scale:2,
-              }, 'time1')
-              .from('.passionfruit', {
-                  y: 500,
-                  x: 900,
-                  rotate: 90,
-              }, 'time1')
-              .from('#yellow', {
-                  y: 300,
-                  x: 700,
-                  rotate: 90,
               }, 'time1')
       });
     }, []);

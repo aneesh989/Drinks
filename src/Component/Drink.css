@@ -107,9 +107,6 @@ nav {
   top: 20%;
 }
 
-/* #strawberry {
-  width: 35vw;
-} */
 
 #strawbunch {
   top: 65%;
@@ -250,44 +247,65 @@ box-shadow:  18px 18px 36px #641c1e,
   filter: brightness(.7);
   transform: scale(.98);
  }
-#pineapple {
-  width: 12vw;
-}
-.pineapplecut,
-  .passionfruit {
+.kiwicut {
+    width: 100%;
+    scale:120%;
+  }
+.pineapplecut{
+    width: 100%;
+  }
+  #strawberry {
     width: 35vw;
   }
-#yellow {
-  width: 35vw;
-}
-#resp-strawbunch {
+  #pineapple {
+    width: 35vw;
+  }
+  #kiwi {
+    width: 35vw;
+  }
+/* #resp-strawbunch {
   width: 50vw;
 }
 #resp-strawberry {
   width: 90vw;
-}
+} */
 #resp-strawbunch,
 #resp-strawberry {
   display: none;
 }
 
+/* for small devices */
+
 @media (max-width: 799px) {
-  .cntr-nav {
-    display: none;
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7vh;
+    justify-content: space-between !important;
+    padding: 0vw 10vw;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #000;
+    z-index: 999999;
   }
   .ri-menu-line {
-    font-size: 7vw;
+    font-size: 5vw;
   }
   .section1 h1 {
-    font-size: 32vw;
+    font-size: 20vw;
   }
-  /* #strawberry {
+  #strawberry {
     width: 95vw;
-  } */
+    z-index: 9999;
+  }
   #pineapple {
     width: 95vw;
   }
-  #yellow {
+  #kiwi {
     width: 95vw;
   }
   #strawbunch2 {
@@ -316,7 +334,7 @@ box-shadow:  18px 18px 36px #641c1e,
   }
   .magicpattern {
     width: 100%;
-    height: 40%;
+    height: 70%;
   }
   .section2 .lft {
     width: 100%;
@@ -344,17 +362,17 @@ box-shadow:  18px 18px 36px #641c1e,
     width: 80vw;
     padding: 5vw;
   }
+  .section3 #resp-strawberry {
+    width: 95vw;
+    z-index: 9999;
+  }
   .card button {
     padding: 5vw 10vw;
   }
   
   .pineapplecut,
-  .passionfruit {
-    width: 75vw;
-  }
-  .pineapplecut,
-  .passionfruit {
-    width: 75vw;
+  .kiwicut {
+    width: 35vw;
   }
   #resp-strawbunch,
   #resp-strawberry {
