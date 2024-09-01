@@ -4,11 +4,11 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import "./Drink.css";
 
-import strawleaf1 from "../assets/strawleaf1.webp";
-import strawberry01 from "../assets/strawberry01.webp";
-import strawleaf2 from "../assets/strawleaf2.webp";
-import strawberry from "../assets/strawberry.webp";
-import strawbunch from "../assets/strawbunch.webp";
+// import strawleaf1 from "../assets/strawleaf1.webp";
+// import strawberry01 from "../assets/strawberry01.webp";
+// import strawleaf2 from "../assets/strawleaf2.webp";
+// import strawberry from "../assets/strawberry.webp";
+// import strawbunch from "../assets/strawbunch.webp";
 
 function SectionOne() {
   useEffect(() => {
@@ -66,11 +66,11 @@ function SectionOne() {
   return (
     <div className="section section1 d-flex bg-gradient-to-r from-pink-700 via-red-500 to-pink-600 ...">
       <h1>strawberry</h1>
-      <img id="strawleaf1" src={strawleaf1} alt="Leaf" />
-      <img id="strawbunch2" src={strawberry01} alt="strawberry01" />
-      <img id="strawleaf2" src={strawleaf2} alt="Leaf 2" />
-      <img id="strawberry" src={strawberry} alt="strawberry" />
-      <img id="strawbunch" src={strawbunch} alt="strawbunch" />
+      <img id="strawleaf1" src="https://res.cloudinary.com/djmbeywnm/image/upload/v1725189335/ttvlyf0a00rtiogh1hgv.png" alt="Leaf" />
+      <img id="strawbunch2" src="https://res.cloudinary.com/djmbeywnm/image/upload/v1725189335/ycroxmffi2e4n622xddb.png" alt="strawberry01" />
+      <img id="strawleaf2" src="https://res.cloudinary.com/djmbeywnm/image/upload/v1725189336/l8ewqupcsp2z7solqwwi.webp" alt="Leaf 2" />
+      <img id="strawberry" src="https://res.cloudinary.com/djmbeywnm/image/upload/v1725189335/p7pgsmkpg6j0iexkqo3q.png" alt="strawberry" />
+      <img id="strawbunch" src="https://res.cloudinary.com/djmbeywnm/image/upload/v1725189334/crkpvcce0vptgcrawtdk.png" alt="strawbunch" />
     </div>
   );
 }

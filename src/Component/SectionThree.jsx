@@ -3,12 +3,12 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Lenis from '@studio-freight/lenis';
 import "./Drink.css";
-import kiwicut from '../assets/kiwicut.webp';
-import pineapplecut from '../assets/pineapplecut.webp';
-import strawberry01 from '../assets/strawberry01.webp';
-import pineapple from '../assets/pineapple.webp';
-import strawberry from '../assets/strawberry.webp';
-import kiwi from '../assets/kiwi.webp';
+// import kiwicut from '../assets/kiwicut.webp';
+// import pineapplecut from '../assets/pineapplecut.webp';
+// import strawberry01 from '../assets/strawberry01.webp';
+// import pineapple from '../assets/pineapple.webp';
+// import strawberry from '../assets/strawberry.webp';
+// import kiwi from '../assets/kiwi.webp';
 
 function SectionThree() {
   useEffect(() => {
@@ -110,24 +110,24 @@ function SectionThree() {
     <div className="section d-flex section3">
       <div className="card d-flex-c">
         <div className="img-div d-flex">
-          <img className='pineapplecut' src={pineapplecut} alt="Pineapple Cut" />
-          <img id="pineapple" className=' w-full max-h-screen' src={pineapple} alt="Pineapple" />
+          <img className='pineapplecut' src="https://res.cloudinary.com/djmbeywnm/image/upload/v1725189329/waeuyjgdpchg92nbcpnn.png" alt="Pineapple Cut" />
+          <img id="pineapple" className=' w-full max-h-screen' src="https://res.cloudinary.com/djmbeywnm/image/upload/v1725189329/cp0qaca0rnrmt7izwxbv.png" alt="Pineapple" />
         </div>
         <h1 className="mainHeading">pineapple</h1>
         <button className='btn'>Buy Now</button>
       </div>
       <div className="card d-flex-c">
         <div className="img-div d-flex">
-          <img id="resp-strawberry" src={strawberry} alt="Resp strawberry" />
-          <img id="resp-strawbunch" src={strawberry01} alt="Resp strawberry" />
+          <img id="resp-strawberry" src="https://res.cloudinary.com/djmbeywnm/image/upload/v1725189335/p7pgsmkpg6j0iexkqo3q.png" alt="Resp strawberry" />
+          <img id="resp-strawbunch" src="https://res.cloudinary.com/djmbeywnm/image/upload/v1725189335/ycroxmffi2e4n622xddb.png" alt="Resp strawberry" />
         </div>
         <h1 className="mainHeading">strawberry</h1>
         <button className='btn'>Buy Now</button>
       </div>
       <div className="card d-flex-c">
         <div className="img-div d-flex">
-          <img  className='kiwicut ' src={kiwicut} alt="kiwicut" />
-          <img id="kiwi" src={kiwi} alt="kiwi" />
+          <img  className='kiwicut ' src="https://res.cloudinary.com/djmbeywnm/image/upload/v1725189325/nfpu6ypnbh96swsuonij.png" alt="kiwicut" />
+          <img id="kiwi" src="https://res.cloudinary.com/djmbeywnm/image/upload/v1725189324/sanvgikf9wbepbdveqbs.png" alt="kiwi" />
         </div>
         <h1 className="mainHeading">kiwi</h1>
         <button className='btn'>Buy Now</button>
