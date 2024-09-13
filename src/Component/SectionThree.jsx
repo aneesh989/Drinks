@@ -3,12 +3,6 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Lenis from '@studio-freight/lenis';
 import "./Drink.css";
-// import kiwicut from '../assets/kiwicut.webp';
-// import pineapplecut from '../assets/pineapplecut.webp';
-// import strawberry01 from '../assets/strawberry01.webp';
-// import pineapple from '../assets/pineapple.webp';
-// import strawberry from '../assets/strawberry.webp';
-// import kiwi from '../assets/kiwi.webp';
 
 function SectionThree() {
   useEffect(() => {
@@ -34,7 +28,6 @@ function SectionThree() {
               end: '190% 100%',
               // scroller:"body",
               scrub: 1,
-              markers: true
           }
       });
       tl2.from('.pineapplecut', {
@@ -69,7 +62,6 @@ function SectionThree() {
               start: '0% 90%',
               end: '100% 100%',
               scrub: 1,
-              markers: true
           }
       });
       tl2.from('.pineapplecut', {

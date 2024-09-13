@@ -34,9 +34,9 @@ function SectionOne() {
         },
       });
 
-      tl.to("#strawleaf1", { top: "120%", left: "80%", rotate: 90 }, "timeO")
-        .to("#strawleaf2", { top: "105%", left: "5%", rotate: 120 }, "timeO")
-        .to("#strawberry", { top: "115%", left: "5%", rotate:360 }, "timeO")
+      tl.to("#strawleaf1", { top: "120%", left: "80%", rotate:90 }, "timeO")
+        .to("#strawleaf2", { top: "105%", left: "5%",  rotate:120 }, "timeO")
+        .to("#strawberry", { top: "115%", left: "5%",  rotate:360 }, "timeO")
         .to("#strawbunch2", { top: "150%", left: "25%" }, "timeO")
         .to("#strawbunch", { top: "160%", left: "70%" }, "timeO");
     });
@@ -53,8 +53,8 @@ function SectionOne() {
 
       tl.to("#strawleaf1", { top: "120%", left: "80%", rotate: 90 }, "timeO")
         .to("#strawleaf2", { top: "105%", left: "5%", rotate: 120 }, "timeO")
-        .to("#strawberry", { top: "125%", left: "5%" }, "timeO")
-        .to("#strawbunch2", { top: "110%", left: "15%" }, "timeO")
+        .to("#strawberry", { top: "125%", left: "5%",rotate:360 }, "timeO")
+        .to("#strawbunch2", { top: "110%", left: "15%",rotate:360 }, "timeO")
         .to(
           "#strawbunch",
           { top: "160%", left: "35%", width: "65vw" },
